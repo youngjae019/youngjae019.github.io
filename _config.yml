@@ -1,0 +1,21 @@
+# Site settings
+title: Journey to Learning
+header-img: img/home-bg.png
+email: kgalang01@gmail.com
+copyright_name: youngjae019
+description: > # this means to ignore newlines until "baseurl:"
+  the beginning of a new career
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  youngjae019
+learn_profile: youngjae019
+email_username: kgalang01@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
